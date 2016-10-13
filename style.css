@@ -11,55 +11,57 @@ div{
 }
 
 #list_header{
-    	position: fixed;
+	position: fixed;
 	width: 155px;
-    	left: 0;
-    	right: 0;
-    	margin: -50px auto;
-    	background: rgba(0,0,0,0.75);
-    	border-radius: 20px;
-    	color: #fff;
-    	font-size: .83em;
-    	height: 40px;
-    	padding: 12px;
-    	z-index: 99;
-    	max-width: 58.333%;
-    	box-sizing: border-box;
+	left: 0;
+	right: 0;
+	margin: -50px auto;
+	background: rgba(0,0,0,0.75);
+	border-radius: 20px;
+	color: #fff;
+	font-size: .83em;
+	height: 40px;
+	padding: 12px;
+	z-index: 99;
+	max-width: 58.333%;
+	box-sizing: border-box;
 }
 
 #list_header a {
-    	line-height: 0.7;
+	line-height: 0.7;
 }
 
 .display_name{
-    	font-size: 1.8em!important;
+	font-size: 1.8em!important;
 }
 
 a {
-    	color: inherit;
-    	text-decoration: none;
-    	-webkit-transition: .15s;
-    	transition: .15s;
+	color: inherit;
+	text-decoration: none;
+	-webkit-transition: .15s;
+	transition: .15s;
 	background-color: transparent;	
 }
 
 .img_crop{
 	background-image: url(https://avatars3.githubusercontent.com/u/13853515?v=3&s=466);
-    	background-repeat: no-repeat;
-    	background-size: cover;
-    	border-radius: 20px;
-    	float: left;
-    	height: 40px;
-    	margin-left: -12px;
-    	margin-right: 15px;
-    	margin-top: -12px;
-    	overflow: hidden;
-    	width: 40px;
-    	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+	float: left;
+	height: 40px;
+	margin-left: -12px;
+	margin-right: 15px;
+	margin-top: -12px;
+	overflow: hidden;
+	width: 40px;
+	box-sizing: border-box;
 }
 
 #content {
-    	background-color: rgba(31, 31, 31, 0.7);
+	background-color: rgba(31, 31, 31, 0.7);
+	float: right;
+	width: 75%;
 }
 
 #title {
@@ -67,12 +69,28 @@ a {
     color: white;
 }
 
-#title h1 {
+#title h1, h3 {
     padding-left: 20px;
 }
-p {
+
+p , .left{
     position: relative;
     left: 8px;
     bottom: 8px;
     right: 8px;
+}
+
+#bio {
+	background-color: rgba(31, 31, 31, 0.7);
+	position: absolute;
+	width: 23%;
+}
+
+.link{
+	display: inherit;
+    position: relative;
+    top: -13px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #f6f5f5;
 }
