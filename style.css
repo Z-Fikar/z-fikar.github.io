@@ -38,6 +38,10 @@ a, a:hover.display_name {
 	transition: .15s;
 	background-color: transparent;	
 }
+a, a.display_name {
+	color: inherit;
+}
+
 a{
 	color: #ffc600;
 }
