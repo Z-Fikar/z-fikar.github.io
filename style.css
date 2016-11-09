@@ -38,7 +38,12 @@ a, a:hover.display_name {
 	transition: .15s;
 	background-color: transparent;	
 }
-
+a{
+	color: #ffc600;
+}
+a:hover{
+	color: #ff3500;
+}
 .img_crop{
 	background-image: url(https://avatars3.githubusercontent.com/u/13853515?v=3&s=466);
 	background-repeat: no-repeat;
